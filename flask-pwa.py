@@ -6,6 +6,11 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
+@app.route('/details')
+@app.route('/detail')
+def details():
+    return render_template('detail.html')
+
 @app.route('/offline.html')
 def offline():
     return app.send_static_file('offline.html')
