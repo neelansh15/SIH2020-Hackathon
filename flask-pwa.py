@@ -2,16 +2,9 @@ from flask import Flask, jsonify, render_template
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def home():
     return render_template('index.html')
-
-
-@app.route('/some-other-page')
-def other_page():
-    return render_template('other-page.html')
-
 
 @app.route('/offline.html')
 def offline():
