@@ -1,3 +1,3 @@
 # Bhagwaan Bharose
 
-The name says it all
+Initial Repo for the SIH Hackathon. Final Repo moved.
